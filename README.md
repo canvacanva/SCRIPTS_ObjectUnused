@@ -63,7 +63,7 @@ Send-Mailmessage -smtpServer $smtpServer -from $from -to $recipient -subject $su
 ```
 ## BASIC PARAMETERS
 $TYPE = "USERS"
-$SearchBase="OU=XX,DC=corp,DC=DOMAIN,DC=it"
+$SearchBase="OU=XX,DC=XX,DC=DOMAIN,DC=it"
 $EXPIRED = 25
 $smtpServer = "relay"
 $from = "$TYPE"+"_unused@domain"
